@@ -1,0 +1,11 @@
+n=int(input("Enter number:"))
+e=0
+o=0
+if(n%2==0):
+    e=e+1 
+    print("even number:",e)
+    print("True")
+else:
+    o=o+1 
+    print("odd number:",o)
+    print("False")
